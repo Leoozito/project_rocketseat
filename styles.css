@@ -1,0 +1,53 @@
+* {
+  padding: 0; /* Para tirar a margem e padding que o próprio navegador coloca */
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; */
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+#container {
+  width: 360px;
+  /* top&bottom: 56px left&right: 12px
+  margin: 56px 12px*/
+  /*  top: 56px, left&right: autopx, bottom:0px  */
+  margin: 56px auto 0px
+  /*margin: top right bottom left
+  margin: 56px auto 0px auto;*/
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+}
